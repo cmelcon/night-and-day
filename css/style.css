@@ -1,0 +1,35 @@
+.blackbg{
+  background-color: black;
+}
+#orb{
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  padding: 20px;
+  margin: 100px auto 0 auto;
+  transition: all 1s;
+}
+#sky{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 2s;
+}
+.day{
+    background-color: rgb(27, 199, 228);
+}
+.night{
+  background-color: black;
+}
+.sun{
+  background-color: #FD0;
+  border: 10px solid #f1c40f;
+}
+.moon{
+  background-color: #bdc3c7;
+  border: 10px solid #eaeff2;
+
+}
